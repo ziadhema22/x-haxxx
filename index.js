@@ -13,7 +13,7 @@ const client = new Discord.Client();
 var prefix = "$"; // تعديل مهم جدا
 var statuses = [`PR Official`];
 var timers = 2;
-const owners = ["935910764101914696", "935579230488633456", "935899787692245052"];
+const owners = ["935910764101914696", "935579230488633456", "935899787692245052", "910482674915885077"];
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
