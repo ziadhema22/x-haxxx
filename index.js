@@ -97,11 +97,7 @@ client.on("message", message => {
         message.author.displayAvatarURL({ dynamic: true })
       )
       .setDescription(
-        `📬 : تـم ارسـال رسـالـتـك الـى : \`${
-          message.guild.members.cache.filter(
-            m => m.presence.status !== "online"
-          ).size
-        }\` `
+        `📬 : تـم ارسـال رسـالـتـك الـى : \`${message.guild.memberCount}\` `
       )
       .setTimestamp()
       .setFooter(
